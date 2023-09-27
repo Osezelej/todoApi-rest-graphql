@@ -1,0 +1,22 @@
+{
+  "name": "iterview",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "This app is made for the iterview",
+  "main": "./src/index.js",
+  "license": "MIT",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "express-session": "^1.17.3",
+    "graphql": "^16.8.1",
+    "graphql-http": "^1.22.0",
+    "mongoose": "^7.5.3",
+    "nodemon": "^3.0.1",
+    "passport": "^0.6.0",
+    "passport-local": "^1.0.0",
+    "passport-local-mongoose": "^8.0.0",
+    "uuid": "^9.0.1"
+  }
+}

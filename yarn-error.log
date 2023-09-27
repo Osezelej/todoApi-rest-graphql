@@ -1,0 +1,42 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\anubahimendo osezele\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js add express mongoose graphql graphql-http passport pasport-local pasport-local-mongoose express-session
+
+PATH: 
+  C:\Python311\Scripts\;C:\Python311\;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Python310\Scripts\;C:\Python310\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\SWITZ Antivirus\;C:\Program Files (x86)\Skype\Phone\;C:\ProgramData\chocolatey\bin;C:\Program Files\Git\cmd;C:\Users\anubahimendo osezele\Documents\mongosh-1.9.0-win32-x64\mongosh-1.9.0-win32-x64\bin;C:\Program Files\nodejs\;C:\Users\anubahimendo osezele\anaconda3\Library\bin;C:\Users\anubahimendo osezele\anaconda3\Scripts;C:\Users\anubahimendo osezele\AppData\Local\Microsoft\WindowsApps;C:\Program Files\JetBrains\PyCharm Community Edition 2021.3.1\bin;;C:\Users\anubahimendo osezele\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\JetBrains\GoLand 2022.1\bin;;C:\Users\anubahimendo osezele\AppData\Roaming\Pub\Cache\bin;C:\Program Files\heroku\bin;C:\src\flutter\bin;C:\msys64\mingw64\bin;;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.3.1\bin;;C:\Users\anubahimendo osezele\AppData\Roaming\npm
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  18.17.1
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/pasport-local: Not found
+      at params.callback [as _callback] (C:\Users\anubahimendo osezele\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:66145:18)
+      at self.callback (C:\Users\anubahimendo osezele\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:140890:22)
+      at Request.emit (node:events:514:28)
+      at Request.<anonymous> (C:\Users\anubahimendo osezele\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:141862:10)
+      at Request.emit (node:events:514:28)
+      at IncomingMessage.<anonymous> (C:\Users\anubahimendo osezele\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:141784:12)
+      at Object.onceWrapper (node:events:628:28)
+      at IncomingMessage.emit (node:events:526:35)
+      at endReadableNT (node:internal/streams/readable:1359:12)
+      at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+
+npm manifest: 
+  {
+    "name": "iterview",
+    "version": "1.0.0",
+    "description": "This app is made for the iterview",
+    "main": "index.js",
+    "license": "MIT"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
