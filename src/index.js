@@ -9,7 +9,7 @@ import cors from 'cors'
 import gqlSchema from "./graphql/schema.js";
 
 const app =  express();
-mongoose.connect("mongodb+srv://osezelejoseph:7bKIQUXHBfa6ACT1@cluster0.7uwgrbb.mongodb.net/?retryWrites=true&w=majority")
+mongoose.connect("your database url")
 app.all('/graphql', createHandler({
     schema:gqlSchema
 }))
@@ -100,7 +100,7 @@ app.post('/login', async(req, res)=>{
     let validuser = await User.findOne({username}).exec();
     let valid;
     if(validuser){
-        valid = await bcrypt.compare(password, validuser.password)
+        valid = await  bcrypt.compare(password, validuser.password)
     }else{
         res.send('user does not exist')
     }
